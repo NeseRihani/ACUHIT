@@ -26,6 +26,8 @@ Auris calculates a precise risk score using a unique hybrid architecture: **Rule
 * **Machine Learning:** LightGBM, scikit-learn, imbalanced-learn, SHAP
 * **NLP & UI:** Nexpath API, Streamlit
 * **Stats & Voice:** SciPy, Web Speech API (Chrome)
+## 📄 License
+This project is licensed under the Apache License 2.0. See the `LICENSE` file for details.
 
 
 ![Auris UI](images/farmakovigilans_dashboard.png)
