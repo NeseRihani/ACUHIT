@@ -1,0 +1,797 @@
+{
+  "b0c28d32dfb6df1e178bae74ff93ebb3": {
+    "risk_faktorleri": [
+      {
+        "kategori": "Endokrin",
+        "bulgu": "20 yıllık tip 2 diyabet",
+        "aktif": true,
+        "ciddiyet": "yüksek"
+      },
+      {
+        "kategori": "Kanama",
+        "bulgu": "Klopidogrel (Plavix) kullanımı",
+        "aktif": true,
+        "ciddiyet": "orta"
+      },
+      {
+        "kategori": "Üroloji",
+        "bulgu": "Belirgin BPH (prostat 54 g, PVR 118 mL)",
+        "aktif": true,
+        "ciddiyet": "orta"
+      }
+    ],
+    "kontrendikasyon_uyarilari": [
+      {
+        "ilac_grubu": "NSAİİ",
+        "neden": "Klopidogrel kullanımı nedeniyle artmış GIS/kanama riski",
+        "ciddiyet": "kritik"
+      },
+      {
+        "ilac_grubu": "Antimuskarinik (Tolterodin)",
+        "neden": "Yüksek rezidüel idrar hacmi→idrar retansiyonu riski",
+        "ciddiyet": "yüksek"
+      }
+    ],
+    "klinik_ozet": "1) Semptomatik BPH (prostat 54 g, PVR 118 mL) için alfuzosin başlanmış, GreenLight PVP planlanıyor. 2) Önemli eşlik eden hastalıklar: 20 yıllık tip 2 DM, dislipidemi, hipertansiyon; kronik ilaçlar arasında klopidogrel, insulin, metformin, ARB-diüretik kombinasyonu. 3) Antiplatelet tedavi yaklaşan cerrahi ve potansiyel NSAİİ kullanımında kanama riskini artırır; tolterodin yüksek PVR’da dikkat gerektirir.",
+    "nlp_risk_skoru": 82,
+    "acil_bayraklar": []
+  },
+  "f71c31f3151938d5764335c46d126600": {
+    "risk_faktorleri": [
+      {
+        "kategori": "Antiplatelet kullanımı",
+        "bulgu": "Plavix (klopidogrel) kullanıyor",
+        "aktif": true,
+        "ciddiyet": "yüksek"
+      },
+      {
+        "kategori": "Kronik hastalık",
+        "bulgu": "20 yıllık Tip 2 DM; potansiyel diyabetik nefropati",
+        "aktif": true,
+        "ciddiyet": "orta-yüksek"
+      },
+      {
+        "kategori": "Yaklaşan cerrahi",
+        "bulgu": "Planlanan PVP lazer prostatektomi",
+        "aktif": true,
+        "ciddiyet": "orta"
+      },
+      {
+        "kategori": "Eşzamanlı ilaçlar",
+        "bulgu": "SNRI (Efexor), ARB+diüretik (Codiovan), statin (Crestor)",
+        "aktif": true,
+        "ciddiyet": "orta"
+      }
+    ],
+    "kontrendikasyon_uyarilari": [
+      {
+        "ilac_grubu": "NSAID + antiplatelet",
+        "neden": "Artmış gastrointestinal ve cerrahi kanama riski",
+        "mekanizma": "COX-1 inhibisyonu ile trombosit fonksiyonunun azalması ve klopidogrel ile additif antiplatelet etki",
+        "kanit_duzeyi": "A",
+        "ciddiyet": "yüksek"
+      },
+      {
+        "ilac_grubu": "NSAID + ARB/diüretik (\"triple whammy\")",
+        "neden": "Akut böbrek hasarı riski",
+        "mekanizma": "NSAID afferent arteriol vazokonstriksiyonu, ARB efferent dilatasyonu, diüretik hipovolemi → GFR düşüşü",
+        "kanit_duzeyi": "A",
+        "ciddiyet": "yüksek"
+      },
+      {
+        "ilac_grubu": "NSAID + SNRI",
+        "neden": "Üst GİS kanaması riskinde artış",
+        "mekanizma": "Serotonin geri alım inhibitörü trombosit serotonin depolarını azaltır; NSAID mide mukozasını zedeler",
+        "kanit_duzeyi": "A",
+        "ciddiyet": "orta"
+      },
+      {
+        "ilac_grubu": "NSAID perioperatif dönem",
+        "neden": "Planned prostat cerrahisi öncesi kanama ve iyileşme komplikasyonları",
+        "mekanizma": "Trombosit agregasyonunun geri dönüşsüz baskılanması süresince cerrahi kan kaybı artar",
+        "kanit_duzeyi": "A",
+        "ciddiyet": "orta-yüksek"
+      }
+    ],
+    "klinik_ozet": "Klopidogrel, ARB+diüretik, SNRI, statin ve çoklu kronik hastalığı bulunan (uzun süredir DM, olası böbrek fonksiyon bozukluğu) erkek hastada yakın zamanda lazer prostatektomi planlanıyor. İbuprofen kullanımı bu kombinasyonla önemli GİS/cerrahi kanama, böbrek fonksiyon düşüşü ve olası hepatik advers olay riskini belirgin artırır.",
+    "nlp_risk_skoru": 80,
+    "acil_bayraklar": [],
+    "farmakolojik_not": "İbuprofen non-selektif COX-1/2 inhibisyonu ile prostaglandin sentezini azaltır. Bu durum mide mukozasında koruyucu PG kaybı ve trombosit TXA2 azalması sonucu kanama eğilimini artırır; afferent arteriol vazokonstriksiyonuyla ARB+diüretik kullanan diyabetik hastada AKI riski yükselir. Klopidogrel ve venlafaksin ek etkisiyle GİS kanama riski sinerjistik artar. Cerrahi öncesi 5–7 gün ara verilmesi ve gerekirse alternatif analjezi (parasetamol ± kısa süreli opioid) veya PPI gastroproteksiyonu düşünülmelidir."
+  },
+  "a27e528c0426cccbef483269177086d1": {
+    "risk_faktorleri": [
+      {
+        "kategori": "Metabolik/Karaciğer",
+        "bulgu": "Tip 2 DM ×20 yıl → NAFLD olasılığı, statin eş-kullanımı",
+        "aktif": true,
+        "ciddiyet": "orta"
+      },
+      {
+        "kategori": "İlaç Etkileşimi",
+        "bulgu": "Rosuvastatin (potansiyel additif hepatotoksisite)",
+        "aktif": true,
+        "ciddiyet": "orta"
+      },
+      {
+        "kategori": "İlaç Etkileşimi",
+        "bulgu": "Klopidogrel (uzun süreli yüksek doz parasetamolde INR/kanama artışı olasılığı)",
+        "aktif": true,
+        "ciddiyet": "düşük-orta"
+      },
+      {
+        "kategori": "Polifarmasi",
+        "bulgu": "≥10 kronik ilaç",
+        "aktif": true,
+        "ciddiyet": "orta"
+      }
+    ],
+    "kontrendikasyon_uyarilari": [
+      {
+        "ilac_grubu": "Parasetamol",
+        "neden": "Ciddi karaciğer yetmezliği veya aktif hepatit varlığında",
+        "mekanizma": "Yüksek doz → NAPQI birikimi, glutatyon tükenmesi → hepatoselüler nekroz",
+        "kanit_duzeyi": "A",
+        "ciddiyet": "Kontrendike"
+      },
+      {
+        "ilac_grubu": "Parasetamol + Rosuvastatin",
+        "neden": "Kümülatif hepatik enzim yükselmesi riski",
+        "mekanizma": "Her iki ilacın hepatik metabolizması",
+        "kanit_duzeyi": "B",
+        "ciddiyet": "orta"
+      },
+      {
+        "ilac_grubu": "Parasetamol + Klopidogrel",
+        "neden": "Uzun süre/ yüksek dozda INR artışı‐kanama olasılığı",
+        "mekanizma": "Parasetamol K-vitamin döngüsünü etkileyebilir, antiplatelet etkiyle sinerji",
+        "kanit_duzeyi": "C",
+        "ciddiyet": "düşük-orta"
+      }
+    ],
+    "klinik_ozet": "65+ yaşında, 20 yıllık tip 2 diyabeti, BPH nedeniyle PVP planı olan, polifarmasi mevcut (insülin, metformin, rosuvastatin, klopidogrel, venlafaksin, valsartan/HCT, tamsulosin, tolterodin, levodopa vb.) erkek hasta. Karaciğer hastalığı bildirilmemekle beraber DM ve statin kullanımı NAFLD/hepatotoksisite riskini artırabilir. Parasetamol için mutlak kontrendikasyon saptanmadı ancak hepatik rezerv ve cerrahi öncesi kanama riski (klopidogrel) nedeniyle doz ≤3 g/gün (tercihen ≤2 g/gün) ve LFT izlemi önerilir.",
+    "nlp_risk_skoru": 75,
+    "acil_bayraklar": [],
+    "farmakolojik_not": "Parasetamol analjezik/antipiretik etkisini santral COX-bağımsız yollardan gösterir: CNS’de AM404 oluşumu TRPV1 ve CB1 reseptörlerini aktive eder, serotonerjik ve T-tip Ca kanallarını modüle eder. NSAID’lere göre GI, renal ve KV yan etki riski düşüktür; bu hasta profilinde avantaj sağlar. Ancak NAPQI aracılı hepatotoksisite yüksek dozda ortaya çıkar; karaciğer fonksiyon bozukluğu, alkol kullanımı veya rosuvastatin eş-kullanımı ile risk artar. Klopidogrel ile uzun süreli yüksek doz parasetamol INR/kanama riskini hafif artırabilir. Cerrahi planlı hastada doz kontrolü, LFT takibi ve toplam günlük dozun ≤3 g (tercihen ≤2 g) sınırında tutulması önerilir."
+  },
+  "54a03dcfc2fc186290050ad9eeb6ffbd": {
+    "risk_faktorleri": [
+      {
+        "kategori": "Kardiyovasküler",
+        "bulgu": "Diabetes mellitus, hipertansiyon (codiovan), dislipidemi (crestor) → NSAID ile trombotik olay riski artar",
+        "aktif": true,
+        "ciddiyet": "yüksek"
+      },
+      {
+        "kategori": "Gastrointestinal",
+        "bulgu": "Eş-zamanlı klopidogrel kullanımı ve muhtemel ileri yaş → üst GİS kanama riski artar",
+        "aktif": true,
+        "ciddiyet": "yüksek"
+      },
+      {
+        "kategori": "Renal",
+        "bulgu": "DM nefropatisi potansiyeli + ARB (valsartan) + diüretik (HCTZ) kombinasyonu; NSAID eklenmesi ‘triple whammy’ ile AKI riskini yükseltir",
+        "aktif": true,
+        "ciddiyet": "orta-yüksek"
+      },
+      {
+        "kategori": "Perioperatif",
+        "bulgu": "Yakın zamanda planlanan lazer prostatektomi → perioperatif kanama ve iyileşme gecikmesi",
+        "aktif": true,
+        "ciddiyet": "orta"
+      }
+    ],
+    "kontrendikasyon_uyarilari": [
+      {
+        "ilac_grubu": "Non-selektif NSAID (diklofenak)",
+        "neden": "Yüksek kardiyovasküler riskli hastada trombotik komplikasyon olasılığı",
+        "mekanizma": "COX-2 inhibisyonu → prostasiklin ↓, tromboksan ↑; tromboz ve hipertansiyon eğilimi",
+        "kanit_duzeyi": "A",
+        "ciddiyet": "majör"
+      },
+      {
+        "ilac_grubu": "Non-selektif NSAID (diklofenak)",
+        "neden": "Antiplatelet (klopidogrel) ile eş-kullanımda ciddi GİS kanama riski",
+        "mekanizma": "COX-1 inhibisyonu → mide mukozal PG ↓; trombosit agregasyon fonksiyonel olarak zaten baskılı",
+        "kanit_duzeyi": "A",
+        "ciddiyet": "majör"
+      }
+    ],
+    "klinik_ozet": "DM, HT, dislipidemi ve klopidogrel kullanan, lazer prostatektomi planlanan hastada diklofenak; kardiyovasküler olay, GİS kanama ve akut böbrek hasarı riskini belirgin artırır.",
+    "nlp_risk_skoru": 75,
+    "acil_bayraklar": [
+      "Ani göğüs ağrısı/dyspne → MI/embolik olay şüphesi",
+      "Melena veya hematemez → GİS kanama",
+      "Oligüri veya kreatinin artışı → Akut böbrek hasarı"
+    ],
+    "farmakolojik_not": "Diklofenak, COX-1 ve COX-2’yi inhibe ederek prostaglandin sentezini azaltır; bu analjezik-antiinflamatuar etki sağlarken kardiyovasküler tromboz, GİS mukozal hasarı ve renal perfüzyon azalmasına yol açabilir. Hastanın antiplatelet (klopidogrel) tedavisi ve ARB+diüretik kombine kullanımı riskleri daha da yükseltir; alternatif analjezik (parasetamol/topikal NSAID) veya gastroprotek­siyon + CV değerlendirme önerilmelidir."
+  },
+  "14cf8dd5ed8d31a77d887217f87edfc8": {
+    "risk_faktorleri": [
+      {
+        "kategori": "Kardiyovasküler",
+        "bulgu": "Clopidogrel kullanımı, HT + olası koroner arter hastalığı; geçmişte ani bilinç kaybı",
+        "aktif": true,
+        "ciddiyet": "Yüksek"
+      },
+      {
+        "kategori": "Metabolik",
+        "bulgu": "Tip 2 DM ≥20 yıl (otonom nöropati ve sessiz İKH riski)",
+        "aktif": true,
+        "ciddiyet": "Orta-Yüksek"
+      },
+      {
+        "kategori": "İlaç Etkileşimi",
+        "bulgu": "Venlafaksin 75 mg (SNRI, QTc uzatıcı potansiyel)",
+        "aktif": true,
+        "ciddiyet": "Yüksek"
+      },
+      {
+        "kategori": "İlaç Etkileşimi",
+        "bulgu": "Ciprofloxacin (fluorokinolon, QTc uzatma + CYP3A4 inhibisyonu)",
+        "aktif": true,
+        "ciddiyet": "Yüksek"
+      },
+      {
+        "kategori": "Elektrolit",
+        "bulgu": "Hidroklorotiyazid (Codiovan) → hipokalemi olasılığı",
+        "aktif": true,
+        "ciddiyet": "Yüksek"
+      }
+    ],
+    "kontrendikasyon_uyarilari": [
+      {
+        "ilac_grubu": "QT-prolonging ajan kombinasyonu",
+        "neden": "Eş zamanlı venlafaksin ve/veya ciprofloxacin kullanımı",
+        "mekanizma": "Additif hERG kanalı blokajı → ventriküler aritmi riski",
+        "kanit_duzeyi": "A",
+        "ciddiyet": "Kontrendike/yüksek risk"
+      },
+      {
+        "ilac_grubu": "Hipokalemiye yol açan diüretikler",
+        "neden": "Hidroklorotiyazid kaynaklı K⁺ düşüklüğü",
+        "mekanizma": "Elektrolit dengesizliği QTc uzamasını şiddetlendirir",
+        "kanit_duzeyi": "A",
+        "ciddiyet": "Yüksek"
+      },
+      {
+        "ilac_grubu": "Altta yatan kardiyak hastalık",
+        "neden": "Koroner arter hastalığı/otonom nöropati şüphesi",
+        "mekanizma": "Domperidonun iyon kanal etkisiyle malign aritmi tetiklenmesi",
+        "kanit_duzeyi": "A",
+        "ciddiyet": "Yüksek"
+      }
+    ],
+    "klinik_ozet": "Uzun süredir DM ve kardiyovasküler risk faktörleri olan, çoklu ilaç (venlafaksin, ciprofloxacin, HCTZ) kullanan BPH’li erkek hastada domperidon kullanımı, %3-8 QTc uzaması riskini belirgin artırır; hipokalemi ve eş zamanlı QT-uzatan ajanlar malign ventriküler aritmi olasılığını yükseltir.",
+    "nlp_risk_skoru": 75,
+    "acil_bayraklar": [
+      "Eş zamanlı ciprofloxacin + domperidon: torsades de pointes riski",
+      "Hipokalemi varlığında ani kardiyak arrest riski"
+    ],
+    "farmakolojik_not": "Domperidon periferik D2 antagonisti olarak bulantı/gastroparezi tedavisine yönelik prokinetik etki gösterir; ancak kardiyak hERG K⁺ kanallarını bloke ederek QTc uzatır. Bu hastada mevcut venlafaksin ve ciprofloxacin ile additif QTc uzaması, HCTZ ile hipokalemi, DM kaynaklı otonom nöropati ve olası koroner arter hastalığı aritmi riskini yükseltir; alternatif non-QT uzatan antiemetik (ör. düşük doz ondansetron veya non-farmakolojik yaklaşımlar) değerlendirilmelidir."
+  },
+  "e29db1926dd43bf2d23de3ac9141765d": {
+    "risk_faktorleri": [
+      {
+        "kategori": "Polifarmasi",
+        "bulgu": "≥10 kronik ilaç (insülin, codiovan, plavix, venlafaksin, rosuvastatin, vs.)",
+        "aktif": true,
+        "ciddiyet": "orta"
+      },
+      {
+        "kategori": "Yaşlı hasta olası",
+        "bulgu": "BPH ve Parkinson tedavileri >65 y olasılığı",
+        "aktif": true,
+        "ciddiyet": "orta"
+      },
+      {
+        "kategori": "Kardiyovasküler hastalık",
+        "bulgu": "HT (codiovan) + antiplatelet (plavix)",
+        "aktif": true,
+        "ciddiyet": "düşük"
+      },
+      {
+        "kategori": "Planlı cerrahi",
+        "bulgu": "Yakında PVP lazer prostatektomi planı",
+        "aktif": true,
+        "ciddiyet": "düşük"
+      },
+      {
+        "kategori": "Diabetes mellitus",
+        "bulgu": "20 yıllık DM, insülin kullanıyor",
+        "aktif": true,
+        "ciddiyet": "düşük"
+      }
+    ],
+    "kontrendikasyon_uyarilari": [
+      {
+        "ilac_grubu": "Parasetamol",
+        "neden": "Şiddetli hepatik yetmezlik/akut hepatit",
+        "mekanizma": "Toksik metabolit (NAPQI) birikimi",
+        "kanit_duzeyi": "A",
+        "ciddiyet": "mutlak"
+      },
+      {
+        "ilac_grubu": "Parasetamol + kronik alkol kullanımı",
+        "neden": "Artmış hepatotoksisite riski",
+        "mekanizma": "CYP2E1 indüksiyonu → ↑NAPQI",
+        "kanit_duzeyi": "A",
+        "ciddiyet": "göreceli"
+      },
+      {
+        "ilac_grubu": "Parasetamol + varfarin (hastada YOK, olası eklenirse)",
+        "neden": "INR artışı, kanama riski",
+        "mekanizma": "Hepatik metabolizma ve K-vitamin döngüsü etkisi",
+        "kanit_duzeyi": "B",
+        "ciddiyet": "göreceli"
+      }
+    ],
+    "klinik_ozet": "Hastada BPH nedeniyle prostat lazer cerrahisi planı, uzun süredir DM, HT, dislipidemi, Parkinson ve polifarmasi mevcut. Parasetamol önerildiğinde hepatik fonksiyon bozukluğu bildirilmemiş olsa da yaş ve çoklu ilaç kullanımı nedeniyle maksimum günlük doz 3 g ile sınırlandırılması, açlık/malnütrisyon durumunda 2 g’a düşürülmesi uygundur. Warfarin almıyor; plavix ile klinik etkileşim beklenmez. Cerrahi öncesi NSAID’lere göre parasetamol analjezik olarak güvenli seçenektir.",
+    "nlp_risk_skoru": 72,
+    "acil_bayraklar": [],
+    "farmakolojik_not": "Parasetamol merkezi COX inhibisyonu, serotonerjik ve endokannabinoid yol modülasyonu ile analjezik/antipiretik etki gösterir; periferal anti-inflamatuar aktivitesi minimaldir. Hepatik faz II konjugasyon (glukuronidasyon, sülfasyon) ile metabolize olur; %5-10 CYP450 (özellikle CYP2E1) yolu ile toksik NAPQI oluşur, glutatyon ile detoksifiye edilir. Malnütrisyon, yaşlılık veya ilaç indüksiyonu (örn. kronik alkol) glutatyon depolarını azaltabilir. Hastanın mevcut ilaçlarıyla majör farmakokinetik etkileşim beklenmez; plavix, rosuvastatin, valsartan, tamsulosin, tolterodin, levodopa/benserazid ve SSRI ile klinik olarak anlamlı etkileşim rapor edilmemiştir. Maksimum tek doz 1 g, günlük toplam ≤3 g (≤2 g karaciğer riski varsa) önerilir."
+  },
+  "44ac1dce83d4c3ad46b5a6c081c7f195": {
+    "risk_faktorleri": [
+      {
+        "kategori": "Karaciğer",
+        "bulgu": "Kronik poli-ilâç kullanımı (rosuvastatin, metformin, venlafaksin vb.) → potansiyel karaciğer enzim yüksekliği; paracetamol >3 g/gün ile hepatotoksisite riski artar",
+        "aktif": true,
+        "ciddiyet": "orta-yüksek"
+      },
+      {
+        "kategori": "Yaş/Komorbidite",
+        "bulgu": "≥20 yıllık tip 2 diyabet; olası NAFLD/karaciğer yağlanması; hipertansiyon",
+        "aktif": true,
+        "ciddiyet": "orta"
+      },
+      {
+        "kategori": "Cerrahi Süreç",
+        "bulgu": "Yaklaşan PVP (lazer prostatektomi); post-operatif analjezi ihtiyacı ve potansiyel ilaç yükü",
+        "aktif": true,
+        "ciddiyet": "düşük-orta"
+      }
+    ],
+    "kontrendikasyon_uyarilari": [
+      {
+        "ilac_grubu": "Paracetamol (Minoset)",
+        "neden": "Ciddi aktif karaciğer hastalığı veya belirgin karaciğer enzim yüksekliği",
+        "mekanizma": "Paracetamol’ün toksik metaboliti (NAPQI) → glutatyon tüketimi → hepatoselüler nekroz",
+        "kanit_duzeyi": "A",
+        "ciddiyet": "yüksek"
+      },
+      {
+        "ilac_grubu": "Statin (rosuvastatin)",
+        "neden": "Eşzamanlı hepatotoksik potansiyel → serum ALT/AST yükselmesi riski",
+        "mekanizma": "Her iki ilacın hepatik metabolizması; karaciğer hücre stresinin artması",
+        "kanit_duzeyi": "A",
+        "ciddiyet": "orta"
+      },
+      {
+        "ilac_grubu": "Alkol (varsa)",
+        "neden": "Kronik alkol kullanımı paracetamol hepatotoksisitesini artırabilir",
+        "mekanizma": "CYP2E1 induksiyonu → NAPQI oluşumunda artış, glutatyon depolarının azalması",
+        "kanit_duzeyi": "A",
+        "ciddiyet": "yüksek"
+      }
+    ],
+    "klinik_ozet": "65+ y, 20 yıllık tip 2 DM, HT, hiperlipidemi, BPH nedeniyle PVP planlı; çoklu kronik ilaç (rosuvastatin, metformin, klopidogrel, venlafaksin, valsartan/HCT vb.) kullanıyor; karaciğer fonksiyon durumu bilinmiyor.",
+    "nlp_risk_skoru": 75,
+    "acil_bayraklar": [],
+    "farmakolojik_not": "Minoset (paracetamol) analjezik/antipiretik olarak santral COX-2 inhibisyonu ve endokannabinoid yolak üzerinden etki eder; hepatik faz II metabolizması NAPQI ara ürünü üretir. Günlük doz >3–4 g veya eşlik eden karaciğer hastalığı/alkol ya da hepatotoksik ilaçlar (rosuvastatin, potansiyel Tb ilaçları) durumunda akut hepatonekroz riski artar. Böbrek fonksiyonu hafif-orta bozuklukta doz ayarı gerekmez; BPH, antihipertansifler, antiplatelet (klopidogrel) ile klinik açıdan anlamlı farmakodinamik etkileşim beklenmez. Cerrahi öncesi antikoagülan etkisi yoktur, bu nedenle NSAID’lere göre kanama riski düşüktür ancak yüksek dozda hepatotoksisite riski göz önünde bulundurulmalı; karaciğer enzimleri takip edilmelidir."
+  },
+  "8299f27dd1afece64b27584bde5ed96c": {
+    "risk_faktorleri": [
+      {
+        "kategori": "Komorbidite",
+        "bulgu": "Uzun süredir Tip 2 Diyabet (20+ yıl) → diyabete bağlı nefropati olasılığı, kardiyovasküler risk artışı",
+        "aktif": true,
+        "ciddiyet": "yüksek"
+      },
+      {
+        "kategori": "Komorbidite",
+        "bulgu": "Hipertansiyon (codiovan 160/12,5 mg kullanımı)",
+        "aktif": true,
+        "ciddiyet": "orta-yüksek"
+      },
+      {
+        "kategori": "Komorbidite",
+        "bulgu": "Benign Prostat Hiperplazisi (BPH); cerrahi planlanıyor",
+        "aktif": true,
+        "ciddiyet": "düşük"
+      },
+      {
+        "kategori": "İlaç Etkileşimi",
+        "bulgu": "Plavix (klopidogrel) + venlafaksin → antiplatelet ve serotonin üzerinden artmış kanama riski; NSAİİ eklenmesi GI ve sistemik kanama riskini yükseltir",
+        "aktif": true,
+        "ciddiyet": "yüksek"
+      },
+      {
+        "kategori": "İlaç Etkileşimi",
+        "bulgu": "Codiovan’daki hidroklorotiyazid + ibuprofen → renal perfüzyon azalması, AKI riski",
+        "aktif": true,
+        "ciddiyet": "yüksek"
+      },
+      {
+        "kategori": "İlaç Etkileşimi",
+        "bulgu": "Insulin/antidiyabetikler + NSAİİ → olası hipoglisemi maskelenmesi",
+        "aktif": true,
+        "ciddiyet": "orta"
+      },
+      {
+        "kategori": "Yaş/Diğer",
+        "bulgu": "Muhtemel ileri yaş (≥65 y) → NSAİİ’ye bağlı GI, renal, KV olay riski artar",
+        "aktif": true,
+        "ciddiyet": "orta-yüksek"
+      }
+    ],
+    "kontrendikasyon_uyarilari": [
+      {
+        "ilac_grubu": "NSAİİ (ibuprofen)",
+        "neden": "Aktif veya yüksek riskli gastrointestinal kanama (klopidogrel + venlafaksin kombinasyonu)",
+        "mekanizma": "Trombosit COX-1 inhibisyonu + antiplatelet/SSRI sinerjisiyle hemostaz bozulması",
+        "kanit_duzeyi": "A",
+        "ciddiyet": "Kontrendike/kaçınılmalı"
+      },
+      {
+        "ilac_grubu": "NSAİİ (ibuprofen)",
+        "neden": "Diyabete bağlı olası kronik böbrek hastalığı ve eş-zamanlı diüretik/ARB kullanımı",
+        "mekanizma": "Prostaglandin sentez inhibisyonu → afferent arteriol konstriksiyonu → GFR düşüşü, AKI riski",
+        "kanit_duzeyi": "A",
+        "ciddiyet": "Kontrendike veya çok yüksek risk; yakın takip şart"
+      },
+      {
+        "ilac_grubu": "NSAİİ (ibuprofen)",
+        "neden": "Kontrolsüz/var olan hipertansiyon ve artmış KV risk (statin, DM, olası serebrovasküler olay öyküsü)",
+        "mekanizma": "Sodyum/su retansiyonu ve vazokonstriksiyon → kan basıncı, trombotik olay artışı",
+        "kanit_duzeyi": "A",
+        "ciddiyet": "Yüksek risk, dikkatli kullanım/alternatif tercih"
+      }
+    ],
+    "klinik_ozet": "68-70 y erkek; 20+ yıllık Tip 2 DM, HT, BPH; planlı lazer prostatektomi. Mevcut ilaçları: insulin, metformin, valsartan/HCT, klopidogrel, rosuvastatin, venlafaksin, tamsulosin, tolterodin, levodopa vb. Diyabete bağlı renal fonksiyon bozukluğu potansiyeli ve yüksek KV risk taşıyor. Antiplatelet (klopidogrel) + SSRI (venlafaksin) kombinasyonu mevcut; üst üriner sistem şikâyetleri, BPH için alfuzosin tedavisi başlanmış. Nurofen (ibuprofen) eklenmesi GI kanama, renal işlev bozulması ve KV olay riskini artırabilir.",
+    "nlp_risk_skoru": 75,
+    "acil_bayraklar": [],
+    "farmakolojik_not": "Nurofen (ibuprofen) geri dönüşümlü COX-1/COX-2 inhibisyonu ile prostaglandin sentezini azaltır; analjezik, antipiretik, anti-inflamatuar etki gösterir. Bu mekanizma; mide mukozasında prostaglandin azalmasına bağlı ülser/kanama, böbrekte afferent arteriolde vazokonstriksiyon sonucu GFR düşüşü ve sıvı/sodyum retansiyonu yaparak hipertansiyon ile akut böbrek hasarı riskini artırır. Diüretik (HCT) ve ARB (valsartan) ile birlikte 'triple whammy' oluşabilir. Klopidogrel ve venlafaksin ile eş zamanlı kullanım kanama riskini sinerjik olarak yükseltir. Diyabetik nefropati ve yaş faktörü renal ve KV advers etkileri daha olası kılar; alternatif analjezik (parasetamol veya gerekli ise COX-2 selektif düşük doz) ve gastroprotek­siyon + renal/KV monitörizasyon önerilir."
+  },
+  "6dfd05dcbf632e0752b1005e1e27c72d": {
+    "risk_faktorleri": [
+      {
+        "kategori": "Komorbidite",
+        "bulgu": "Uzun süreli diabetes mellitus → olası renal fonksiyon bozukluğu, Desloratadin böbrekten atılır",
+        "aktif": true,
+        "ciddiyet": "Orta"
+      },
+      {
+        "kategori": "Komorbidite",
+        "bulgu": "Benign prostat hiperplazisi ve alt üriner sistem semptomları → antihistaminiklerin (nadiren de olsa) idrar retansiyonunu artırma potansiyeli",
+        "aktif": true,
+        "ciddiyet": "Düşük-Orta"
+      },
+      {
+        "kategori": "İlaç-ilaç etkileşimi",
+        "bulgu": "Venlafaksin (SNRI) ve diğer QT-uzatıcı ajanlarla eşzamanlı kullanım → kümülatif QT uzaması riski",
+        "aktif": true,
+        "ciddiyet": "Orta"
+      },
+      {
+        "kategori": "İlaç-ilaç etkileşimi",
+        "bulgu": "Tolterodin (antikolinerjik) + Desloratadin → idrar retansiyonu/antikolinerjik yük artışı",
+        "aktif": true,
+        "ciddiyet": "Düşük-Orta"
+      },
+      {
+        "kategori": "İlaç-ilaç etkileşimi",
+        "bulgu": "Klonazepam + Desloratadin → sedasyon ve düşme riski hafif artabilir",
+        "aktif": true,
+        "ciddiyet": "Düşük"
+      }
+    ],
+    "kontrendikasyon_uyarilari": [
+      {
+        "ilac_grubu": "QT-uzatıcı ilaçlar (örn. SNRI: Venlafaksin)",
+        "neden": "Desloratadin düşük de olsa QT uzatıcı etki gösterir, birlikte kullanım kümülatif risk yaratır",
+        "mekanizma": "hERG kanal blokajı üzerinden additive QTc uzaması",
+        "kanit_duzeyi": "A",
+        "ciddiyet": "Orta"
+      },
+      {
+        "ilac_grubu": "Şiddetli renal/karaciğer yetmezliği",
+        "neden": "İlacın atılımı yavaşlar, plazma konsantrasyonu artar",
+        "mekanizma": "Azalmış klirens → birikim",
+        "kanit_duzeyi": "A",
+        "ciddiyet": "Yüksek"
+      },
+      {
+        "ilac_grubu": "Antikolinerjik yükü yüksek hastalar (Tolterodin dahil)",
+        "neden": "İdrar retansiyonu ve antikolinerjik yan etkiler artabilir",
+        "mekanizma": "Kolinerjik sinyal inhibisyonu sinerjisi",
+        "kanit_duzeyi": "B",
+        "ciddiyet": "Düşük-Orta"
+      }
+    ],
+    "klinik_ozet": "65+ yaşında olduğu varsayılan, DM, HT, hiperlipidemi, BPH, Parkinson ve polifarmasi öyküsü bulunan erkek hastada BPH nedeniyle PVP planlanıyor. Mevcut ilaçları arasında venlafaksin, tolterodin, klonazepam ve birçok kardiyometabolik ajan var. Desloratadin eklenmesi planlanırsa renal fonksiyon, QTc süresi ve idrar retansiyonu açısından dikkat gerektirir.",
+    "nlp_risk_skoru": 75,
+    "acil_bayraklar": [],
+    "farmakolojik_not": "Desloratadin periferik selektif H1-reseptör antagonisti olup santral sedasyon ve antikolinerjik etkisi minimaldir. CYP3A4 ve CYP2D6 yoluyla metabolize edilir, böbrek ve safra ile atılır. Hastada olası renal disfonksiyon (DM nefropatisi) ve QT-uzatıcı venlafaksin ile birlikte kullanım nedeni ile QTc >500 ms veya ΔQTc>60 ms eşiği aşılmamalıdır; başlangıç/izlem EKG ve elektrolit takibi önerilir. Tolterodin ile kombine kullanım idrar retansiyonu riskini, klonazepam ise sedasyon/düşme riskini hafif artırabilir. Mevcut veriler Desloratadin’in QT uzatıcı etkisinin düşük olduğunu gösterse de, polifarmasi ve komorbiditeler nedeniyle dikkatli doz ve izlem gerekir."
+  },
+  "3c56c6beff9443a2a59a9eaf86a4c3e2": {
+    "risk_faktorleri": [
+      {
+        "kategori": "Böbrek fonksiyonu",
+        "bulgu": "20 yıllık diyabete bağlı olası nefropati (eGFR bilinmiyor)",
+        "aktif": true,
+        "ciddiyet": "orta"
+      },
+      {
+        "kategori": "İleri yaş",
+        "bulgu": "BPH ve multimorbidite, ileri yaş olasılığı yüksek",
+        "aktif": true,
+        "ciddiyet": "orta"
+      },
+      {
+        "kategori": "Polifarmasi / SSS depresyonu",
+        "bulgu": "Klonazepam (Rivotril) + diğer sedatif-potansiyelli ilaçlar",
+        "aktif": true,
+        "ciddiyet": "düşük-orta"
+      },
+      {
+        "kategori": "Kardiyovasküler durum",
+        "bulgu": "Hipertansiyon, dislipidemi; QT uzaması riskine duyarlılık",
+        "aktif": true,
+        "ciddiyet": "düşük"
+      }
+    ],
+    "kontrendikasyon_uyarilari": [
+      {
+        "ilac_grubu": "Desloratadin (2. nesil H1 antihistaminik)",
+        "neden": "Şiddetli böbrek veya karaciğer yetmezliği",
+        "mekanizma": "İlacın atılım/metabolizma azalır → serum düzeyi artar",
+        "kanit_duzeyi": "A",
+        "ciddiyet": "yüksek"
+      },
+      {
+        "ilac_grubu": "Desloratadin + güçlü CYP3A4 inhibitörleri",
+        "neden": "Artmış desloratadin maruziyeti",
+        "mekanizma": "CYP3A4 inhibisyonu → metabolizmanın yavaşlaması, QT uzaması olasılığı",
+        "kanit_duzeyi": "A",
+        "ciddiyet": "orta"
+      }
+    ],
+    "klinik_ozet": "65+ Y erkek; 20 yıllık tip 2 DM, HT, dislipidemi, Parkinson, BPH (prostat 54 g; PVP planlı). Mevcut ilaçlar: NovoMix 30, metformin, valsartan/HCT, rosuvastatin, clopidogrel, venlafaksin, tamsulosin, tolterodin, klonazepam, ginkgo, levodopa/benserazid, piracetam.",
+    "nlp_risk_skoru": 75,
+    "acil_bayraklar": [],
+    "farmakolojik_not": "Desloratadin çoğunlukla güvenli ve düşük sedatif/antikolinerjik etkiye sahip olsa da BPH’li hastada idrar retansiyonu izlenmelidir. Klonazepam ile sinerjistik sedasyon oluşturabilir. Tolterodin ile toplam antikolinerjik yük artabilir. Şüpheli böbrek disfonksiyonu varsa doz aralığı uzatılmalı (örn. 5 mg günaşırı). QT uzaması öyküsü veya eş-zamanda güçlü CYP3A4 inhibitörü kullanımı planlanıyorsa EKG/ilaç gözden geçirmesi önerilir."
+  },
+  "917c951562172b8085591df383d2a97d": {
+    "risk_faktorleri": [
+      {
+        "kategori": "İlaç-İlaç Etkileşimi",
+        "bulgu": "Mevcut tedavide valsartan/hidroklorotiyazid (Codiovan 160/12,5 mg) kullanımı; Hipersar (irbesartan) eklenirse çift RAS blokajı oluşur.",
+        "aktif": true,
+        "ciddiyet": "yüksek"
+      },
+      {
+        "kategori": "Komorbidite",
+        "bulgu": "20+ yıllık tip 2 diyabet; diyabetik nefropati ve böbrek fonksiyon bozukluğu riski.",
+        "aktif": true,
+        "ciddiyet": "orta-yüksek"
+      },
+      {
+        "kategori": "İlaç-İlaç Etkileşimi",
+        "bulgu": "Eş zamanlı tamsulosin (Flomax) kullanımı; ortostatik hipotansiyon riskinde artış.",
+        "aktif": true,
+        "ciddiyet": "orta"
+      },
+      {
+        "kategori": "Semptom/Öykü",
+        "bulgu": "Geçmişte ani bilinç kaybı ve baş dönmesi; hipotansiyon için duyarlılık.",
+        "aktif": true,
+        "ciddiyet": "orta"
+      },
+      {
+        "kategori": "İlaç-İlaç Etkileşimi",
+        "bulgu": "Hidroklorotiyazid ile kombine kullanımda (Codiovan) renal fonksiyon ve elektrolit (K⁺) bozukluğu riski.",
+        "aktif": true,
+        "ciddiyet": "orta"
+      }
+    ],
+    "kontrendikasyon_uyarilari": [
+      {
+        "ilac_grubu": "ARB + ARB",
+        "neden": "İrbesartan (Hipersar) ile mevcut valsartan/HCT tedavisi (Codiovan) birlikte kullanılırsa çift RAS blokajı",
+        "mekanizma": "AT1 reseptör blokajının yinelenmesi → belirgin kan basıncı düşüşü, hiperpotasemi, akut böbrek yetmezliği riski",
+        "kanit_duzeyi": "A",
+        "ciddiyet": "kontrendike"
+      },
+      {
+        "ilac_grubu": "ARB",
+        "neden": "Gebelik (genel RAS inhibitörü uyarısı)",
+        "mekanizma": "Fetotoksisite, oligo­hidramniyos, neonatal renal yetmezlik",
+        "kanit_duzeyi": "A",
+        "ciddiyet": "mutlak"
+      },
+      {
+        "ilac_grubu": "ARB + Potasyum tutucu ilaç/takviye",
+        "neden": "Hiperpotasemi riski (ör. spironolakton, potasyum takviyesi varsa)",
+        "mekanizma": "Aldosteron baskısı → K⁺ retansiyonu",
+        "kanit_duzeyi": "A",
+        "ciddiyet": "yüksek"
+      },
+      {
+        "ilac_grubu": "ARB + Lityum",
+        "neden": "Lityum düzeyinde artış ve toksisite",
+        "mekanizma": "Renal lityum klirensinde azalma",
+        "kanit_duzeyi": "B",
+        "ciddiyet": "yüksek"
+      },
+      {
+        "ilac_grubu": "ARB + NSAID + Diüretik",
+        "neden": "Tripl kombinasyon (NSAID + diüretik + ARB) ile akut böbrek yetmezliği riski",
+        "mekanizma": "Glomerüler perfüzyonda azalma",
+        "kanit_duzeyi": "B",
+        "ciddiyet": "yüksek"
+      }
+    ],
+    "klinik_ozet": "71 Y erkek; 20+ yıldır tip 2 DM, BPH (prostat 54 g, PMR 118 mL), PVP planlı. Kronik ilaçları: valsartan/HCT, insulin, metformin, rosuvastatin, venlafaksin, klopidogrel, tamsulosin, tolterodin, klonazepam, levodopa/benserazid vb. Hipersar (irbesartan) düşünülüyor. Mevcut ARB (valsartan) ile eş-kullanım çift RAS blokajı yaparak hipotansiyon, hiperpotasemi ve AKY riskini artırır. Diyabetik nefropati olasılığı ve diüretik eş kullanımı ek risk oluşturur. Tamsulosin ve klonazepam ile ortostatik hipotansiyon potansiyeli vardır. Renal fonksiyon ve elektrolitler yakından izlenmeli; irbesartan ancak mevcut ARB kesilerek veya uygun doz ayarlamasıyla kullanılmalıdır.",
+    "nlp_risk_skoru": 75,
+    "acil_bayraklar": [
+      "Çift RAS blokajı → ciddi hipotansiyon, hiperpotasemi, akut böbrek yetmezliği riski"
+    ],
+    "farmakolojik_not": "Hipersar (irbesartan) seçici anjiyotensin-II AT1 reseptör antagonistidir; vazodilatasyon ve aldosteron baskısı ile kan basıncı düşürür, proteinüriyi azaltabilir. Diyabetik hastalarda böbrek koruyucu etkisi gösterilmiş olsa da, diğer RAS inhibitörleri ile kombine kullanımı önerilmez. Hidroklorotiyazid içeren valsartan kombinasyonu kesilmeden eklenirse renal perfüzyon azalabilir, K⁺ artışı ve kreatinin yükselmesi görülebilir. Tamsulosin, klonazepam ve diğer antihipertansiflerle additif ortostatik hipotansiyon yapabilir. Böbrek fonksiyonları ve serum potasyum başlangıçta ve 1–2 hafta içinde kontrol edilmelidir; eGFR düşerse metformin dozu gözden geçirilmeli, hiperkalemi (>5,5 mmol/L) gelişirse ilaç kesilmelidir."
+  },
+  "88be6461e114fac8d440fee7930320af": {
+    "risk_faktorleri": [
+      {
+        "kategori": "Kardiyovasküler",
+        "bulgu": "DM (20 yıl), HT, dislipidemi (rosuvastatin), olası aterosklerotik KVH; klopidogrel kullanımı",
+        "aktif": true,
+        "ciddiyet": "yüksek"
+      },
+      {
+        "kategori": "Kanama/Gİ",
+        "bulgu": "Klopidogrel + planlı PVP cerrahisi; ileri yaş ve DM ile birlikte NSAID-ilişkili Gİ kanama riski",
+        "aktif": true,
+        "ciddiyet": "orta-yüksek"
+      },
+      {
+        "kategori": "Renal",
+        "bulgu": "DM nefropatisi riski + ARB (valsartan) + diüretik (HCT) → ‘triple whammy’",
+        "aktif": true,
+        "ciddiyet": "orta"
+      }
+    ],
+    "kontrendikasyon_uyarilari": [
+      {
+        "ilac_grubu": "NSAID (diklofenak)",
+        "neden": "Mevcut yüksek kardiyovasküler risk (DM, HT, dislipidemi, klopidogrel kullanımı)",
+        "mekanizma": "COX-2 ağırlıklı inhibisyon → prostasiklin ↓ / tromboksan A2 ↑ → trombotik eğilim artışı",
+        "kanit_duzeyi": "A",
+        "ciddiyet": "major"
+      },
+      {
+        "ilac_grubu": "NSAID + Antiplatelet (klopidogrel)",
+        "neden": "Artmış gastrointestinal ve cerrahi kanama riski",
+        "mekanizma": "Mukoza hasarı + trombosit fonksiyonunda aditif bozulma",
+        "kanit_duzeyi": "A",
+        "ciddiyet": "major"
+      },
+      {
+        "ilac_grubu": "NSAID + ARB/Diüretik",
+        "neden": "Böbrek perfüzyonunda azalma, akut böbrek hasarı riski",
+        "mekanizma": "NSAID: afferent arteriol vazokonstriksiyonu; ARB/HCT: efferent vazodilatasyon & volüm kaybı",
+        "kanit_duzeyi": "B",
+        "ciddiyet": "orta"
+      }
+    ],
+    "klinik_ozet": "65+ yaşında, 20 yıllık tip 2 DM, HT, dislipidemi, klopidogrel tedavisi ve planlı PVP cerrahisi olan BPH hastası. Yüksek KV riskli, potansiyel böbrek fonksiyon zedelenmesi ve kanama riski mevcut.",
+    "nlp_risk_skoru": 75,
+    "acil_bayraklar": [],
+    "farmakolojik_not": "Diklofenak non-selektif (COX-1/COX-2) NSAID’dir; görece COX-2 selektivitesi nedeniyle trombotik olay riskini (MI, inme) artırabilir. Klopidogrel ile birlikte Gİ ve perioperatif kanama riskini yükseltir. ARB+diüretik kombinasyonu ve diyabetik nefropati zemininde renal fonksiyon bozulmasını tetikleyebilir. Uzun süreli/yüksek doz kullanımdan kaçınılmalı; gerekirse minimal etkili doz ve PPI gastro-koruması düşünülmelidir."
+  },
+  "9ba67da73ff4729ed25dcb7324148f48": {
+    "risk_faktorleri": [
+      {
+        "kategori": "Metabolik",
+        "bulgu": "20 yıllık tip 2 diyabet öyküsü (potansiyel diyabetik nefropati)",
+        "aktif": true,
+        "ciddiyet": "orta"
+      },
+      {
+        "kategori": "Kardiyovasküler/hemorajik",
+        "bulgu": "Kronik klopidogrel (Plavix) kullanımı → artmış GİS kanama riski",
+        "aktif": true,
+        "ciddiyet": "orta"
+      },
+      {
+        "kategori": "Yaş",
+        "bulgu": "BPH, çoklu komorbidite ve ilaç → olası ileri yaş (>65 y), farmakokinetik rezerv azalması",
+        "aktif": true,
+        "ciddiyet": "düşük-orta"
+      },
+      {
+        "kategori": "Renal",
+        "bulgu": "Valsartan/HCT (Codiovan) + diyabet → prerenal/nefropatik yük; paracetamol doz-bağımlı nefrotoksisite riski",
+        "aktif": true,
+        "ciddiyet": "orta"
+      }
+    ],
+    "kontrendikasyon_uyarilari": [
+      {
+        "ilac_grubu": "Paracetamol + Klopidogrel (antiplatelet)",
+        "neden": "Eşzamanlı kullanımda üst GİS kanama riski artabilir",
+        "mekanizma": "Paracetamol uzun süreli yüksek dozda mukoza prostaglandin sentezini azaltarak kanamaya zemin hazırlayabilir; klopidogrel trombosit agregasyonunu inhibe eder → sinerjik etki",
+        "kanit_duzeyi": "B",
+        "ciddiyet": "orta"
+      },
+      {
+        "ilac_grubu": "Paracetamol + Rosuvastatin (hepatik metabolize ilaçlar)",
+        "neden": "Karaciğer enzimlerinde additif yükselme potansiyeli",
+        "mekanizma": "Her iki ilacın karaciğer üzerinden metabolizması; yüksek doz/paralel hepatotoksisite riskini artırabilir",
+        "kanit_duzeyi": "C",
+        "ciddiyet": "düşük-orta"
+      }
+    ],
+    "klinik_ozet": "Uzun süreli diyabetli, antihipertansif (valsartan/HCT), klopidogrel ve çoklu ilaç kullanan yaşlı BPH hastasında paracetamol normal dozlarda genelde güvenli; ancak diyabetik nefropati olasılığı, antiplatelet tedavisi ve olası hepatik yük paracetamolün GI kanama, hepatotoksisite ve nefrotoksisite riskini artırabilir. Doz  ≤3 g/gün (tercihen 2 g) ve kısa süreli kullanım önerilir; dehidratasyondan kaçınılmalı, karaciğer/renal fonksiyonlar izlenmelidir.",
+    "nlp_risk_skoru": 75,
+    "acil_bayraklar": [
+      "24 saatte >4 g paracetamol alımı veya bilinen aşırı doz",
+      "Şiddetli sağ üst kadran ağrısı, bulantı-kusma, sarılık, koyu idrar (akut hepatotoksisite)",
+      "Oligüri, anüri, ani kreatinin artışı (akut böbrek hasarı)",
+      "Melena, hematemez, açıklanamayan anemi veya senkop (GİS kanama)"
+    ],
+    "farmakolojik_not": "Paracetamol analjezik/antipiretik etkisini santral COX inhibisyonu ve AM404 metabolitinin TRPV1/CB1 aktivasyonu ile gösterir; periferde güçlü anti-enflamatuvar etkisi yoktur. N-asetil-p-benzoquinone imine (NAPQI) aracılı hepatoselüler toksisite yüksek doz veya glutatyon deplesyonunda (alkol, malnütrisyon, yaşlılık, kronik karaciğer hast.) artar. Diyabetik nefropati ve diüretik kullanımı renal perfüzyon rezervini azaltabileceğinden doz-bağımlı nefrotoksisite riski yükselebilir. Klopidogrel ile eşzamanlı kullanımda GI kanama riski; rosuvastatin ile hepatik enzim artışı olasılığı göz önünde bulundurulmalı. Öneri: Maksimum 2–3 g/gün, kısa süreli kullan, karaciğer/renal fonksiyon ve kanama bulgularını izle."
+  },
+  "2648be95fa8f8784486234bc3ecf3c40": {
+    "risk_faktorleri": [
+      {
+        "kategori": "Metabolik",
+        "bulgu": "20+ yıllık Tip 2 DM – yüksek doz atorvastatin glisemik kontrolü bozabilir",
+        "aktif": true,
+        "ciddiyet": "orta-yüksek"
+      },
+      {
+        "kategori": "Yaş/Komorbidite",
+        "bulgu": "Olası ileri yaş ve diyabete bağlı böbrek/kas zayıflığı → statine bağlı myopati risk artışı",
+        "aktif": true,
+        "ciddiyet": "orta"
+      },
+      {
+        "kategori": "Polifarmasi",
+        "bulgu": "≥10 kronik ilaç (clopidogrel, venlafaksin, klonazepam, tolterodin vb.) → ilaç etkileşim potansiyeli",
+        "aktif": true,
+        "ciddiyet": "orta"
+      },
+      {
+        "kategori": "Mevcut statin kullanımı",
+        "bulgu": "Halihazırda rosuvastatin 10 mg kullanıyor; ek/yerine yüksek doz atorvastatin → artmış ADE riski",
+        "aktif": true,
+        "ciddiyet": "orta"
+      },
+      {
+        "kategori": "Planlı cerrahi",
+        "bulgu": "Yakın zamanda PVP planlanıyor; post-op dönemde rabdomiyoliz izlenmeli",
+        "aktif": true,
+        "ciddiyet": "düşük-orta"
+      }
+    ],
+    "kontrendikasyon_uyarilari": [
+      {
+        "ilac_grubu": "Statinler (HMG-CoA redüktaz inhibitörleri)",
+        "neden": "Aktif karaciğer hastalığı veya açıklanamayan persistan transaminaz yüksekliği",
+        "mekanizma": "Hepatoselüler toksisite riskinin artması",
+        "kanit_duzeyi": "A",
+        "ciddiyet": "yüksek"
+      },
+      {
+        "ilac_grubu": "Statinler – yüksek doz (≥40 mg/gün) atorvastatin",
+        "neden": "Kötüleşmiş glisemik kontrol / yeni diyabet riski",
+        "mekanizma": "GLUT4 inhibisyonu, insülin sekresyonunun azalması, mevalonat yolak etkisi",
+        "kanit_duzeyi": "A",
+        "ciddiyet": "orta"
+      }
+    ],
+    "klinik_ozet": "Hasta 20+ yıllık tip 2 DM, BPH nedeniyle PVP planı, çoklu ilaç (rosuvastatin dâhil) kullanıyor. Atorvastatin özellikle yüksek dozda diyabet kontrolünü bozabilir ve polifarmasi/myopati riskini artırabilir. Karaciğer fonksiyonu ve kreatin kinaz izlenmeli, düşük-orta doz tercihi veya rosuvastatin devamı değerlendirilmeli.",
+    "nlp_risk_skoru": 75,
+    "acil_bayraklar": [],
+    "farmakolojik_not": "Atorvastatin CYP3A4 ile metabolize olur; klonazepam, tolterodin ve venlafaksin gibi CYP3A4 substratları ile teorik etkileşimler izlenebilir, ancak klinik önemi düşüktür. Diyabetli hastada ≥40 mg atorvastatin HbA1c ve açlık glukozunu yükseltebilir (≈%34 NOD artışı verileri). Mevcut rosuvastatin 10 mg’dan geçişte kardiyovasküler fayda/risk dengesi ve karaciğer enzimleri, CK, glisemik parametreler izlenmelidir."
+  }
+}
